@@ -1,3 +1,34 @@
+> [!IMPORTANT]
+>
+> # ⚠️ git-flow has moved to git-flow-next!
+>
+> **This repository is no longer maintained.** The wonderful team at [Tower](https://www.git-tower.com/) has created [**git-flow-next**](https://git-flow.sh) — a modern, fully customizable evolution of git-flow, built on a generic branch dependency model. It’s fully backward compatible with git-flow, open source, and actively maintained.
+>
+> ### Get started with git-flow-next:
+>
+> - **Website:** https://git-flow.sh
+> - **GitHub:** https://github.com/gittower/git-flow-next
+> - **Evolution Story:** Read about the journey from git-flow → git-flow-avh → git-flow-next in [their blog post](https://git-flow.sh/blog)
+>
+> ### Why git-flow-next?
+>
+> git-flow-next builds upon the foundation laid by the original git-flow, offering:
+>
+> - Full customization of branch names and workflow
+> - Modern implementation with active maintenance
+> - Backward compatibility with existing git-flow workflows
+> - Upcoming features like stacked branches and topic branch syncing
+>
+> ### Thank you ❤️
+>
+> To everyone who has used, contributed to, and supported git-flow over the past 15+ years — thank you! Your feedback, contributions, and adoption made git-flow one of the most widely-used Git workflow tools. Special thanks to Peter van der Does for maintaining git-flow-avh, and to the folks at Tower for carrying the torch forward with git-flow-next.
+
+---
+
+<small>(Below, you’ll find the original documentation for historical reference.)</small>
+
+---
+
 git-flow
 ========
 
