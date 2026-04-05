@@ -1,0 +1,112 @@
+
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+body h2 {
+    font-size: 20px;
+}
+
+body h3 {
+    font-size: 16px;
+}
+
+
+sidebar {
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+      gap: 50px;
+      margin-left: 40px;
+}
+
+sidebar #ConfingImg {
+    margin-top: 300px;
+}
+
+a #InicioNewImg {
+    width: 105px;
+    cursor: pointer;
+}
+
+#CalendarioImg {
+    width: 130px;
+    cursor: pointer;
+}
+
+#ConfingImg {
+    width: 156px;
+    cursor: pointer;
+}
+
+
+.Box_grande {
+    position: relative;
+    margin: 50px  0px 100px 75px;
+    border: 2px;
+    width: 160vh;
+    border-color: white;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+header h1 {
+    width: 1000px;
+    font-size: 30px;
+}
+
+header .Bton_nuevo {
+    display: flex;
+    position: relative;
+    margin-right: 50px;
+   height: 40px;
+   cursor: pointer;
+}
+
+header #ImgCuenta {
+    width: 120px;
+}
+
+.Box_1,.Box_2,.Box_3,.Box_4 {
+    border: 2px;
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+    width: 300px;
+    height: 150px;
+    margin: 30px 0px 0px 0px;
+    padding: 40px 0px 0px 40px;
+
+}
+
+.Box_1, .Box_2 {
+    display:inline-block;
+    margin-left: 130px;
+}
+
+.Box_3, .Box_4 {
+    display:inline-block;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+
+
+form, h2 {
+    display: inline-block;
+}
+
+input[type="checkbox"] {
+    width: 25px;  
+    height: 25px; 
+    cursor: pointer;
+}

@@ -4,40 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crea Tarea</title>
+    <link rel="stylesheet" href="Styles.css" />
+    <link rel="stylesheet" href="Create.css"/>
 </head>
 <body>
     <sidebar>
-        <img href="Principal.html" src="Group_7.png" alt="InicioNewImg">
-        <img src="Group_12.png" alt="CalendarioImg">
-        <img src="Group_13.png" alt="ConfingImg">
+        <a href="Principal.html">
+        <img  src="Group_7.png" alt="InicioNewImg" id="InicioNewImg">
+        </a>
+        <img src="Group_13.png" alt="CalendarioImg" id="CalendarioImg">
+        <img src="Group_12.png" alt="ConfingImg" id="ConfingImg">
     </sidebar>
     <main class="Box_grande">
 
         <header>
             <h1>Crea Nueva Tarea</h1>
-            <img src="Mask_group.png" alt="ImgCuenta" />
+            <img src="Mask_group.png" alt="ImgCuenta" id="ImgCuenta" />
         </header>
+
+
         <div class="Box_1">
-            <form>
-            <div class="NombreTarea">
-            <label>Nombre</label>
-            <input  type="text" id="Nombre" />
-            </div>
-            <div class="Textoad">
-                <label>Texto adicional</label>
-                <input type="text" id="Textoad"/>
-            </div>
-            <div class="Fecha">
-                <label>Fecha</label>
-                <input type="date" id="fecha">
-            </div>
-            <div class="Hora">
-                <label>Hora</label>
-                <input type="time" id="Hora">
-            </div>
-            </form>
-        </div>
-        
+    <form class="Form_Tarea">
+        <label class="Nombre_Txt">Nombre</label>
+        <label class="Fecha_Txt">Fecha</label>
+
+        <input type="text" class="Nombre_In" placeholder="Ingrese nombre de la tarea">
+        <input type="date" class="Fecha_In">
+
+        <label class="Adicional_Txt">Texto adicional</label>
+        <label class="Hora_Txt">Hora</label>
+
+        <input type="text" class="Adicional_In" placeholder="Ingrese texto adicional">
+        <input type="time" class="Hora_In">
+
+        <a href="vew.html" class="Bton_enviar">
+            <img src="Group_30.png" alt="enviar" id="Bton_enviar">
+        </a>
+    </form>
+</div>
+
+
+
+
     </main>
 </body>
 </html>
