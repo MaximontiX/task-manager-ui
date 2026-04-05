@@ -86,7 +86,7 @@ form {
 
 .Bton_enviar   { grid-area: bton; }
 
-/* 2. Configuración del Grid con minmax */
+
 .Form_Tarea {
     display: grid;
     
@@ -97,9 +97,7 @@ form {
         "box-adi box-hor"
         "bton    bton";
     
-    /* COLUMNA 1: Mínimo 300px, máximo todo el espacio que sobre (1fr).
-       COLUMNA 2: Mínimo 150px (suficiente para fecha/hora), máximo 250px.
-    */
+   
     grid-template-columns: minmax(300px, 1fr) minmax(150px, 250px); 
     
     /* Espaciado */
@@ -107,13 +105,12 @@ form {
     width: 100%;
 }
 
-/* 3. Ajuste de filas con minmax (opcional pero recomendado) */
-/* Esto asegura que las filas de los inputs tengan un alto cómodo */
+
 .Form_Tarea {
     grid-template-rows: auto minmax(45px, auto) auto minmax(45px, auto) auto;
 }
 
-/* Estilos de tus inputs para que ocupen su celda */
+
 .Form_Tarea input {
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 15px;
@@ -121,10 +118,9 @@ form {
     padding: 12px;
     color: white;
     width: 100%; 
-    box-sizing: border-box; /* Evita que el padding agrande el input más de la cuenta */
+    box-sizing: border-box; 
 }
 
 .Bton_enviar {
-    justify-self: center; /* Centra el botón horizontalmente en el grid */
-}
+    justify-self: center; 
 
