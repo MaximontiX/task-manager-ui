@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 30px;
+}
+sidebar {
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+      gap: 50px;
+      margin-left: 40px;
+}
+
+sidebar #ConfingImg {
+    margin-top: 300px;
+}
+
+a #InicioImg {
+    width: 105px;
+    cursor: pointer;
+}
+
+#CalendarioImg {
+    width: 130px;
+    cursor: pointer;
+}
+
+#ConfingImg {
+    width: 156px;
+    cursor: pointer;
+}
+
+.Box_grande {
+    position: relative;
+    margin: 50px  0px 100px 75px;
+    border: 2px;
+    width: 160vh;
+    border-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    height: 591px;
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+header #ImgCuenta {
+   margin-left: auto;
+}
+.Box_1 {
+    float: left; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border: 2px solid white;
+    border-radius: 60px;
+    width: 400px; 
+    padding: 30px;
+    height: 260px;
+}
+
+
+.Box_2 {
+    float: right; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 40px; 
+    margin-top: 40px;
+    border: 2px solid white;
+    border-radius: 60px;
+    width: 400px;
+    padding: 30px;
+    height: 260px;
+}
+
+
+.Box_grande::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
